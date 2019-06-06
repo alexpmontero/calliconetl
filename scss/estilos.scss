@@ -1,0 +1,16 @@
+$c_blue: blue;
+
+.wrapper_home{
+    background: url(../imgs/bghome1.jpg) no-repeat center bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.flex_container{
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+}
+
