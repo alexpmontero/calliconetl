@@ -22,6 +22,7 @@
         integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
         integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossOrigin="anonymous" />
+    <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 
@@ -29,16 +30,14 @@
     <main>
         <header>
             <div class="nav_top">
-                <div class="row">
-                    <div class="colms"><i class="fas fa-phone"></i> (55) 396 66171</div>
-                    <div class="colms"><i class="fas fa-envelope"></i> info@calliconetl.org</div>
-                    <div class="colms"><i class="fas fa-map-marker-alt"></i> Quintín Gonzalez Maz. 1781 Lote 36, Col.
+                <div class="rowx">
+                    <div class="colms"><i class="fas fa-phone"></i> (553) 966 6171</div>
+                    <div class="colms direc"><i class="fas fa-map-marker-alt"></i> Quintín Gonzalez Maz. 1781 Lote 36,
+                        Col.
                         Amp. Emiliano Zapata</div>
                     <div class="colms">
                         <a target="_blank" href="https://www.facebook.com/CALLI-Conetl-221970847938598"><i
                                 class="fab fa-facebook-square"></i></a>
-                        <a target="_blank" href="https://www.facebook.com/CALLI-Conetl-221970847938598"><i
-                                class="fab fa-instagram"></i></a>
                     </div>
                 </div>
             </div>
@@ -51,51 +50,51 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="#">CALLI CONETL</a>
+                        <a class="navbar-brand wow fadeInLeft" href="#">CALLI CONETL</a>
                     </div>
 
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <div class="collapse navbar-collapse wow fadeInRight" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#">INICIO</a></li>
-                            <li><a href="#">NOSOTROS</a></li>
-                            <li><a href="#">CONTACTO</a></li>
+                            <li><a class="transicion" href="#home">INICIO</a></li>
+                            <li><a class="transicion" href="#nosotros">NOSOTROS</a></li>
+                            <li><a class="transicion" href="#contacto">CONTACTO</a></li>
                         </ul>
                     </div>
                 </div>
             </nav>
         </header>
 
-        <section class="wrapper_home flex_container">
+        <section class="wrapper_home flex_container" id="home">
             <div class="container">
                 <div class="row">
-                    <div class="content_info_home">
-                        <h3 class="ttl_home top">ESTANCIA INFANTIL</h3>
-                        <h1 class="ttl_home mid">CALLI CONETL</h1>
-                        <h2 class="ttl_home bot">EDUCACIÓN INICIAL</h2>
-                        <p class="mt-2"><a class="btn btn_red" href="#">CONÓCENOS</a> </p>
+                    <div class="content_info_home ">
+                        <h3 class="ttl_home top wow bounceInLeft">ESTANCIA INFANTIL</h3>
+                        <h1 class="ttl_home mid wow bounceInLeft">CALLI CONETL</h1>
+                        <h2 class="ttl_home bot wow bounceInLeft">EDUCACIÓN INICIAL</h2>
+                        <p class="mt-2 wow fadeInLeft"><a class="btn btn_red" href="#">CONÓCENOS</a> </p>
                     </div>
                 </div>
             </div>
         </section>
         <section class="wrapper_promos container-fluid">
             <div class="row">
-                <div class="col-sm-3 cols">
+                <div class="col-sm-3 cols wow fadeInLeft">
                     <p class="ico_promo"><i class="fas fa-medal"></i></p>
                     <h3>Maestros Cerficados</h3>
                     <p>Nuestros maestros cuentan con certificaciones en primeros auxilios dados por la PC y la Cruz
                         Roja.</p>
                 </div>
-                <div class="col-sm-3 cols">
+                <div class="col-sm-3 cols wow fadeInLeft">
                     <p class="ico_promo"><i class="fas fa-shield-alt"></i></p>
                     <h3>Seguridad y Confianza</h3>
                     <p>Contamos con un seguro contra accidentes dentro de nuestras instalaciones.</p>
                 </div>
-                <div class="col-sm-3 cols">
+                <div class="col-sm-3 cols wow fadeInRight">
                     <p class="ico_promo"><i class="fas fa-grin-stars"></i></p>
                     <h3>Ambiente Feliz</h3>
                     <p>Las mejores condiciones para que nuestros niños tengan la mejor experiencia al aprender.</p>
                 </div>
-                <div class="col-sm-3 cols">
+                <div class="col-sm-3 cols wow fadeInRight">
                     <p class="ico_promo"><i class="fas fa-comments-dollar"></i></p>
                     <h3>Pagos Accesibles</h3>
                     <p>Nuestro sistema de pagos se ajusta a tus posibilidades, con pagos señales, quincenales o
@@ -103,11 +102,11 @@
                 </div>
             </div>
         </section>
-        <section class="wrapper_nosotros">
+        <section class="wrapper_nosotros" id="nosotros">
             <div class="box_nosotros">
                 <div class=" text-center">
-                    <h1 class="ttl_main"><span>Acerca de nosotros</span></h1>
-                    <p class="box_info_nosotros">En <span>Calli Conetl</span> estamos dedicados a brindar una
+                    <h1 class="ttl_main wow fadeInUp"><span>Acerca de nosotros</span></h1>
+                    <p class="box_info_full wow fadeInUp">En <span>Calli Conetl</span> estamos dedicados a brindar una
                         amplia
                         variedad de servicios de cuidado infantil a los padres y sus hijos, al mismo tiempo que
                         aumentamos sus habilidades y sus conocimientos básicos.</p>
@@ -115,10 +114,11 @@
                 </div>
             </div>
         </section>
-        <section class="wrapper_cite">
+        <section class="wrapper_cite wow fadeInUp">
+            <div class="pleca_layer"></div>
             <div class="container">
-                <div class="row text-center">
-                    <div class="box_info_cite">
+                <div class="text-center">
+                    <div class="box_info_cite wow bounceInUp">
                         <h2>A los niños antes de enseñarles a leer, hay que ayudarles a aprender los que es <br>
                             <span>el Amor y la Verdad</span></h2>
                         <h3><cite>- Mahatma Gandhi</cite></h3>
@@ -126,34 +126,30 @@
                 </div>
             </div>
         </section>
-        <section class="wrapper_contacto">
+        <section class="wrapper_contacto" id="contacto">
             <div class="pleca"></div>
             <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 text-center">
-                        <h1>Contáctanos</h1>
-                        <p>Si tienes alguna pregunta relacionada con nuestros servicios, comuniquese con nosotros ahora
-                            mismo</p>
-                    </div>
+                <div class="text-center">
+                    <h1 class="ttl_main"><span>Contáctanos</span></h1>
+                    <p class="box_info_full">Si tienes alguna pregunta relacionada con nuestros servicios,
+                        comuniquese con nosotros ahora
+                        mismo</p>
                 </div>
-                <div class="row">
-                    <div class="col-sm-6">
-                        <div class="box_info_contact">
-                            <p><i class="fas fa-phone"></i> (553) 966 6171</p>
-                            <p><i class="fas fa-envelope"></i> info@calliconetl.com</p>
-                            <p><i class="fas fa-map-marker-alt"></i> Lorem, ipsum dolor sit amet consectetur
-                                adipisicing
-                                elit. Illo earum soluta
-                                doloremque perferendi.</p>
+                <div class=" box_info_contacto">
+                    <div class="col-xs-6 wow fadeInLeft">
+                        <div class="box_info_date">
+                            <p><i class="fas fa-phone"></i> <span>(553) 966 6171</span></p>
+                            <p><i class="fas fa-envelope"></i> <span>info@calliconetl.com</span></p>
+                            <p><i class="fas fa-map-marker-alt"></i> <span>Quintín Gonzalez Maz. 1781 Lote 36, Col.
+                                    Amp. Emiliano Zapata</span></p>
                             <p>
                                 <a target="_blank" href="https://www.facebook.com/CALLI-Conetl-221970847938598">
-                                    <i class="fab fa-facebook-square"></i></a>
-                                <a target="_blank" href="https://www.facebook.com/CALLI-Conetl-221970847938598">
-                                    <i class="fab fa-instagram"></i></a>
+                                    <i class="fab fa-facebook-square"></i> /CALLI Conetl</a>
+
                             </p>
                         </div>
                     </div>
-                    <div class="col-sm-6">
+                    <div class="col-xs-6 wow fadeInRight">
                         <form>
                             <div class="form-group">
                                 <input type="text" class="form-control" id="" placeholder="Nombre completo">
@@ -169,27 +165,28 @@
                                 <textarea class="form-control" rows="3" placeholder="Mensaje"></textarea>
                             </div>
                             <div class="text-center">
-                                <button type="submit" class="btn btn-default">Submit</button>
+                                <button type="submit" class="btn btn_red">Enviar</button>
                             </div>
                         </form>
                     </div>
                 </div>
             </div>
+            <div class="pleca_contacto wow fadeInUp"></div>
         </section>
-        <footer>
+        <footer class="wow fadeInUp">
             <div class="container">
                 <div class="col-xs-6">
                     <h5>Estancia infantil</h5>
                     <h2>Calli Conetl</h2>
                     <h5>Derechos reservados. 2019</h5>
                 </div>
-                <div class="col-xs-6">
+                <div class="col-xs-6 socials">
                     <h5>Síguenos en</h5>
                     <h1>
                         <a target="_blank" href="https://www.facebook.com/CALLI-Conetl-221970847938598">
                             <i class="fab fa-facebook-square"></i> </a>
-                        <a target="_blank" href="https://www.facebook.com/CALLI-Conetl-221970847938598">
-                            <i class="fab fa-instagram"></i> </a>
+                        <!-- <a target="_blank" href="https://www.facebook.com/CALLI-Conetl-221970847938598"> -->
+                        <!-- <i class="fab fa-instagram"></i> </a> -->
                     </h1>
                     <h5>Diseño y desarrollo por <a target="_blank" href="https://websidi.com/">Websidi.com</a></h5>
                 </div>
@@ -202,6 +199,9 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
         integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
+    <script src="js/transiciones.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
